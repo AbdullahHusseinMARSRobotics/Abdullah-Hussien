@@ -5,22 +5,153 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdallah Hani Hussein - Biography</title>
     <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --text-color: #333;
+        }
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            /* Replace the gradient with a background image */
+            background-image: url('Reach-M_01.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        h1 {
+            margin: 0;
+            color: var(--secondary-color);
+            flex-grow: 1;
+            text-align: center;
+            padding-right: 150px;
+        }
+        img {
+            max-width: 150px;
+            height: auto;
+            margin-right: 20px;
+            border: 3px solid var(--primary-color);
+        }
+        section {
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 1rem 0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        [contenteditable="true"]:hover {
+            background-color: rgba(240, 240, 240, 0.5);
+        }
+        [contenteditable="true"]:focus {
+            outline: 2px solid var(--primary-color);
+            background-color: white;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            section {
+                padding: 1rem;
+            }
+            header, .header-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            h1 {
+                padding-right: 0;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Abdallah Hani Hussein</h1>
-    <p>Structural Design Engineer at MARS Robotics</p>
-    <h2>Education</h2>
-    <p>BSc in Mechanical Engineering, Jordan university of science and technology - GPA:3.95</p>
-    <h2>Career History</h2>
-    <p>Began career as a Mechanical Design Engineer at JoVision. Currently serves as a Structural Design Engineer at MARS Robotics.</p>
-    <h2>Interests</h2>
-    <p>Passionate about mechanisms and machines. Enjoys sports, cooking, and farming.</p>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="profile-picture.jpg" alt="Abdallah Hani Hussein">
+                <h1 contenteditable="true">Abdallah Hani Hussein</h1>
+            </div>
+        </header>
+        
+        <section>
+            <h2 contenteditable="true">Early Life and Education</h2>
+            <p contenteditable="true">Abdallah Hani Hussein has long been fascinated by DIY Mindset and mechanisms, which laid the foundation for his future career. He used to spend his summer vacation building his toys by hand and repairing his and his neighbor's toys surrounded with family support and encouragement, later he distinguished himself in high school to deserve a full scholarship at the first-place local university in his country. He pursued a Bachelor of Science in Mechanical Engineering, aligning his academic background with his interests.</p>
+            <p contenteditable="true"><strong>Date of Birth:</strong> December 16, 1999</p>
+            <p contenteditable="true"><strong>Place of Birth:</strong> Amman, Jordan</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Education</h2>
+            <ul>
+                <li contenteditable="true">BSc in Mechanical Engineering, Jordan university of science and technology - GPA:3.95</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Career History</h2>
+            <p contenteditable="true">Abdallah Hani Hussein began his career as a Mechanical Design Engineer at JoVision, where he honed his skills in designing and optimizing mechanical systems. Currently, he serves as a Structural Design Engineer at MARS Robotics. In this role, he has contributed significantly to the development of Male Unmanned Vehicles (UxVs) and aerospace equipment.</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Major Accomplishments</h2>
+            <p contenteditable="true">Abdallah has played a key role in advancing the design and structural integrity of Male UxVs and aerospace technologies, demonstrating a strong expertise in mechanical and structural engineering.</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Personal Interests and Hobbies</h2>
+            <p contenteditable="true">Outside of his professional life, Abdallah is passionate about mechanisms and machines. He enjoys sports, cooking, and farming, which reflect his diverse interests and hands-on approach to problem-solving.</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Current Position</h2>
+            <p contenteditable="true">- Structural Design Engineer at MARS Robotics</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Summary</h2>
+            <p contenteditable="true">Abdallah Hani Hussein is dedicated to leveraging his mechanical engineering background to drive innovation and efficiency in the field of structural design, with a focus on cutting-edge technologies and applications.</p>
+        </section>
+        
+        <section>
+            <h2 contenteditable="true">Contact</h2>
+            <p contenteditable="true">Email:
+                - Abdullah@marsrobotics.com
+                - Abdullahmarsrobotics@gmail.com</p>
+            <p contenteditable="true">LinkedIn: <a href="https://www.linkedin.com/in/abdallah-hussein-10b151203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/abdallah-hussein-10b151203</a></p>
+        </section>
+    </div>
 </body>
 </html>
